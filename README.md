@@ -30,6 +30,7 @@ All projects will require the following:
 
 ### Custom Force Formula
 What is the formula for your force? Including descriptions/definitions for the symbols. (You may include a picture of the formula if it is not easily typed.)
+
 <img width="545" height="251" alt="image" src="https://github.com/user-attachments/assets/7e923703-bf4b-40d9-b86f-d0c18329347f" />
 
 YOUR ANSWER HERE
