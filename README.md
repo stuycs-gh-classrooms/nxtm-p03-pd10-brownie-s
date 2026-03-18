@@ -79,7 +79,8 @@ YOUR ANSWER HERE
 ### Simulation 4: Custom force
 Describe what your Custom force simulation will look like. Explain how it will be setup, and how it should behave while running.
 
-YOUR ANSWER HERE
+The custom force will simulate a magnetic field where orbital attraction/repulsion to eachother and the speed in which that occurs is due to the environment(aka the magnetic field).
+This won't be for ALL orbs but rather there will be smaller orbs that float around inthe magnetic field and depending on the values assigned to ALL the orbs, the smaller orbs will be the ones attracted or repulsed (rather than the original orbs being attracted and repulsed from eachother)
 
 --- 
 
