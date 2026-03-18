@@ -41,16 +41,16 @@ The magnetic field exerts force on moving charges within the field (results in a
 
 ### Custom Force Breakdown
 - What information that is already present in the `Orb` or `OrbNode` classes does this force use?
-  - YOUR ANSWER HERE
+  - Center
 
 - Does this force require any new constants, if so what are they and what values will you try initially?
-  - YOUR ANSWER HERE
+  - Yes, q (charge) is a constant that will be different for every orb but remains the same throughout that orbs existence
 
 - Does this force require any new information to be added to the `Orb` class? If so, what is it and what data type will you use?
-  - YOUR ANSWER HERE
+  - Yes. It requries drift velocity, magnetic field, and an angle
 
 - Does this force interact with other `Orbs`, or is it applied based on the environment?
-  - YOUR ANSWER HERE
+  - Yes, this force interacts with other Orbs but it interacts with other orbs _because_ of the environment
 
 - In order to calculate this force, do you need to perform extra intermediary calculations? If so, what?
   - YOUR ANSWER HERE
