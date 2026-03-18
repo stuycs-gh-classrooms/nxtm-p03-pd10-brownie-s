@@ -33,7 +33,9 @@ What is the formula for your force? Including descriptions/definitions for the s
 
 <img width="545" height="251" alt="image" src="https://github.com/user-attachments/assets/7e923703-bf4b-40d9-b86f-d0c18329347f" />
 
-YOUR ANSWER HERE
+velocity of charge is also referred to as drift velocity. This affects the magnitude of the force, which means that the force increases with a higher velocity. The direction would change based on the angle between the velocity and the magnetic field, which is why we have a sine function in the formula. 
+Charge is different for every orb, and would be randomly assigned from a range of floats from -1 to 1
+The magnetic field exerts force on moving charges within the field (results in attraction or repulsion)
 
 ### Custom Force Breakdown
 - What information that is already present in the `Orb` or `OrbNode` classes does this force use?
