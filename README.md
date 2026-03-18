@@ -53,7 +53,7 @@ The magnetic field exerts force on moving charges within the field (results in a
   - Yes, this force interacts with other Orbs but it interacts with other orbs _because_ of the environment
 
 - In order to calculate this force, do you need to perform extra intermediary calculations? If so, what?
-  - YOUR ANSWER HERE
+  - Yes, I would have to calculate the angle to the magnetic field (which I would also have to create)
 
 --- 
 
