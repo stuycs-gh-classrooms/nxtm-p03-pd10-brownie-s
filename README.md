@@ -87,5 +87,5 @@ This won't be for ALL orbs but rather there will be smaller orbs that float arou
 ### Simulation 5: Combination
 Describe what your combination simulation will look like. Explain how it will be setup, and how it should behave while running.
 
-YOUR ANSWER HERE
+While running, there should be a bunch of large and small orbs floating around, some small orbs sticking to some larger ones
 
