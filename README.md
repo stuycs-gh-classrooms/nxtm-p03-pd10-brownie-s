@@ -1,9 +1,9 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-jWdCFXs)
 ## Project 00
 ### NeXTCS
-### Period: 
-## Thinker0: YOUR NAME HERE
-## Thinker1: OTHER NAME HERE
-## Thinker2: OTHER NAME HERE (delete this line if you are a duo)
+### Period: 10
+## Thinker0: MST. Bonna
+## Thinker1: Shahnaj Rahman 
 ---
 
 This project will be completed in phases. The first phase will be to work on this document. Use github-flavoured markdown. (For more markdown help [click here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) or [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) )
@@ -26,45 +26,51 @@ All projects will require the following:
 ## Phase 0: Force Selection, Analysis & Plan
 ---------- 
 
-#### Custom Force: NAME OF YOUR FORCE
+#### Custom Force: ClingyOrb
 
 ### Custom Force Formula
 What is the formula for your force? Including descriptions/definitions for the symbols. (You may include a picture of the formula if it is not easily typed.)
 
-YOUR ANSWER HERE
+<img width="545" height="251" alt="image" src="https://github.com/user-attachments/assets/7e923703-bf4b-40d9-b86f-d0c18329347f" />
+
+velocity of charge is also referred to as drift velocity. This affects the magnitude of the force, which means that the force increases with a higher velocity. The direction would change based on the angle between the velocity and the magnetic field, which is why we have a sine function in the formula. 
+
+Charge is different for every orb, and would be randomly assigned from a range of floats from -1 to 1
+
+The magnetic field exerts force on moving charges within the field (results in attraction or repulsion)
 
 ### Custom Force Breakdown
 - What information that is already present in the `Orb` or `OrbNode` classes does this force use?
-  - YOUR ANSWER HERE
+  - Center
 
 - Does this force require any new constants, if so what are they and what values will you try initially?
-  - YOUR ANSWER HERE
+  - Yes, q (charge) is a constant that will be different for every orb but remains the same throughout that orbs existence
 
 - Does this force require any new information to be added to the `Orb` class? If so, what is it and what data type will you use?
-  - YOUR ANSWER HERE
+  - Yes. It requries drift velocity, magnetic field, and an angle
 
 - Does this force interact with other `Orbs`, or is it applied based on the environment?
-  - YOUR ANSWER HERE
+  - Yes, this force interacts with other Orbs but it interacts with other orbs _because_ of the environment
 
 - In order to calculate this force, do you need to perform extra intermediary calculations? If so, what?
-  - YOUR ANSWER HERE
+  - Yes, I would have to calculate the angle to the magnetic field (which I would also have to create)
 
 --- 
 
 ### Simulation 1: Gravity
 Describe how you will attempt to simulate orbital motion.
-
+  - I would attempt to simulate orbital motion by combining different aspects of some of the previous work done already such as within w60 having a fixed orb and within w59 having previously created a gravity. Implementing the work done in w59 such as the force of one object exerted onto another. 
 --- 
 
 ### Simulation 2: Spring
 Describe what your spring simulation will look like. Explain how it will be setup, and how it should behave while running.
-
+The spring simulation should be setup similarly to w61. It should look like the forces between the various orbs are pulling on each other and having spring forces enforced. 
 YOUR ANSWER HERE
 
 --- 
 
 ### Simulation 3: Drag
-Describe what your drag simulation will look like. Explain how it will be setup, and how it should behave while running.
+Describe what your drag simulation will look like. Explain how it will be setup, and how it should behave while running. 
 
 YOUR ANSWER HERE
 
@@ -73,12 +79,13 @@ YOUR ANSWER HERE
 ### Simulation 4: Custom force
 Describe what your Custom force simulation will look like. Explain how it will be setup, and how it should behave while running.
 
-YOUR ANSWER HERE
+The custom force will simulate a magnetic field where orbital attraction/repulsion to eachother and the speed in which that occurs is due to the environment(aka the magnetic field).
+This won't be for ALL orbs but rather there will be smaller orbs that float around inthe magnetic field and depending on the values assigned to ALL the orbs, the smaller orbs will be the ones attracted or repulsed (rather than the original orbs being attracted and repulsed from eachother)
 
 --- 
 
 ### Simulation 5: Combination
 Describe what your combination simulation will look like. Explain how it will be setup, and how it should behave while running.
 
-YOUR ANSWER HERE
+While running, there should be a bunch of large and small orbs floating around, some small orbs sticking to some larger ones
 
