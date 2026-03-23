@@ -59,18 +59,18 @@ The magnetic field exerts force on moving charges within the field (results in a
 
 ### Simulation 1: Gravity
 Describe how you will attempt to simulate orbital motion.
-
+  - I would attempt to simulate orbital motion by combining different aspects of some of the previous work done already such as within w60 having a fixed orb and within w59 having previously created a gravity. Implementing the work done in w59 such as the force of one object exerted onto another. 
 --- 
 
 ### Simulation 2: Spring
 Describe what your spring simulation will look like. Explain how it will be setup, and how it should behave while running.
-
+The spring simulation should be setup similarly to w61. It should look like the forces between the various orbs are pulling on each other and having spring forces enforced. 
 YOUR ANSWER HERE
 
 --- 
 
 ### Simulation 3: Drag
-Describe what your drag simulation will look like. Explain how it will be setup, and how it should behave while running.
+Describe what your drag simulation will look like. Explain how it will be setup, and how it should behave while running. 
 
 YOUR ANSWER HERE
 
